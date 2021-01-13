@@ -7,7 +7,7 @@ const User = (props) =>
                 <hr></hr>
         return (<div>Name: <b>{props.children}</b> | Age: {age_check}<hr/></div>)
     }else{
-        return "Invalid"
+        return "Invalid data"
     }
 }
 
